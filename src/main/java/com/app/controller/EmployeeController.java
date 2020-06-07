@@ -23,6 +23,7 @@ public class EmployeeController {
 			@ModelAttribute Employee employee,
 			ModelMap map) {
 		System.out.println(employee);
+		System.out.println("welcome");
 		map.addAttribute("emp",employee);
 		return "Data";
 	}
